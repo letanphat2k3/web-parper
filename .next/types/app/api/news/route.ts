@@ -1,4 +1,4 @@
-// File: /home/kadama/Downloads/project/src/app/api/news/route.ts
+// File: D:\HK1N4\Web\DoAn2\project\src\app\api\news\route.ts
 import * as entry from '../../../../../src/app/api/news/route.js'
 import type { NextRequest } from 'next/server.js'
 
