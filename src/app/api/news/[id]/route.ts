@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server'
 
 import { prisma } from '../../../../lib/prisma'
 
+
+
 export async function GET(
   request: Request,
   { params }: { params: { id: string } }
@@ -12,6 +14,7 @@ export async function GET(
 
   if (!news) {
     return NextResponse.json(
+      
       { error: 'News not found' },
       { status: 404 }
     )
